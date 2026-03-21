@@ -1,0 +1,37 @@
+﻿POLÍTICA DE VIAGENS CORPORATIVAS E REEMBOLSO DE DESPESAS - CHOCOLATECH
+Versão 2.1 - Atualizada em Março de 2026
+1. OBJETIVO
+Esta política estabelece as diretrizes e os limites de despesas para colaboradores da ChocolaTech que precisem realizar viagens a trabalho, participar de eventos corporativos ou realizar despesas em nome da empresa para representação comercial.
+2. FLUXO DE SOLICITAÇÃO E APROVAÇÃO
+Toda viagem deve ser solicitada através do portal "ChocoTravel" (via ERP interno) com, no mínimo, 15 (quinze) dias de antecedência para voos nacionais e 30 (trinta) dias para voos internacionais.
+A viagem só poderá ser emitida após a aprovação do Gestor Direto (Manager) e do Diretor da Área (C-Level ou VP).
+Viagens emergenciais (solicitadas com menos de 7 dias de antecedência) exigem justificativa formal e aprovação extraordinária do Diretor Financeiro (CFO).
+3. PASSAGENS AÉREAS
+A emissão de passagens é feita exclusivamente pela agência de viagens parceira da ChocolaTech (VoaTech Turismo).
+   * Classe: Todas as passagens aéreas devem ser emitidas em Classe Econômica.
+   * Bagagem: A empresa cobre o despacho de 1 (uma) bagagem de até 23kg para viagens com duração superior a 4 dias úteis. Para viagens mais curtas, o colaborador deve viajar apenas com bagagem de mão (10kg).
+   * Milhagens: Os pontos de programas de fidelidade (milhas) gerados pelas viagens corporativas pertencem ao colaborador e podem ser usados para fins pessoais.
+   4. HOSPEDAGEM
+A ChocolaTech possui acordos com redes hoteleiras (Ibis, Mercure, Novotel). A reserva deve priorizar esses hotéis com café da manhã incluso.
+Caso não haja disponibilidade nos hotéis parceiros, aplicam-se os seguintes tetos máximos de diária (já incluindo taxas):
+      * Cidades Tier 1 (São Paulo, Rio de Janeiro, Brasília): Limite de R$ 380,00 por diária.
+      * Cidades Tier 2 (Capitais do Nordeste, Sul, BH, etc.): Limite de R$ 280,00 por diária.
+      * Cidades Tier 3 (Interior e demais cidades): Limite de R$ 200,00 por diária.
+      * Viagens Internacionais: Limite de USD 150,00 ou EUR 130,00 por diária.
+Despesas extras no hotel (frigobar, lavanderia, filmes sob demanda, academia extra) NÃO são reembolsáveis pela empresa, devendo ser pagas pelo colaborador no momento do check-out. A única exceção é lavanderia para viagens consecutivas superiores a 7 (sete) dias.
+         5. ALIMENTAÇÃO (PER DIEM)
+O colaborador em viagem receberá um valor diário (Per Diem) para cobrir despesas de almoço, jantar e lanches, caso o hotel já forneça o café da manhã.
+O reembolso de alimentação é feito MEDIANTE APRESENTAÇÃO DE NOTA FISCAL, respeitando os seguintes limites:
+            * Viagens Nacionais: Até R$ 130,00 por dia completo de viagem.
+            * Viagens Internacionais: Até USD 70,00 ou EUR 65,00 por dia completo de viagem.
+Gorjetas estão incluídas neste limite (recomenda-se no máximo 10%). A compra de bebidas alcoólicas não é reembolsável, exceto em jantares de relacionamento com clientes, mediante aprovação prévia do Diretor.
+               6. TRANSPORTE TERRESTRE E ALUGUEL DE CARROS
+               * Aplicativos: O transporte entre aeroporto, hotel e cliente deve ser feito prioritariamente utilizando a conta corporativa da ChocolaTech nos aplicativos Uber (categoria Comfort) ou 99 (categoria Plus).
+               * Aluguel de Veículos: Só é permitido para deslocamentos em cidades do interior onde não há cobertura de aplicativos de transporte, ou quando a visita envolver mais de 3 clientes em locais distantes no mesmo dia. A locação deve ser categoria "Econômico com Ar Condicionado" via Localiza. A empresa reembolsará o combustível consumido mediante nota fiscal.
+               * Uso de Carro Próprio: Caso o colaborador opte por usar seu veículo particular para uma viagem a trabalho, o reembolso será feito na base de R$ 1,20 por quilômetro rodado. Este valor já inclui gastos com combustível, desgaste do pneu, seguro e depreciação. Pedágios e estacionamentos serão reembolsados à parte, com recibo.
+               7. DESPESAS DE REPRESENTAÇÃO (CLIENTES)
+Almoços ou jantares com clientes para fins de relacionamento comercial têm um teto de R$ 180,00 por pessoa (incluindo o cliente e o colaborador). É obrigatório inserir o nome completo do cliente, o cargo e a empresa no relatório de despesas para aprovação de compliance.
+               8. PROCESSO DE REEMBOLSO
+Todas as despesas que não forem faturadas diretamente para a ChocolaTech devem ser cadastradas no módulo "Despesas" do aplicativo do RH em até 5 (cinco) dias úteis após o retorno da viagem.
+É obrigatório anexar as Notas Fiscais ou Cupons Fiscais legíveis (recibos simples ou canhotos de cartão de crédito não têm validade fiscal e serão rejeitados).
+O pagamento dos reembolsos aprovados ocorrerá todas as terças e quintas-feiras, diretamente na conta salário do colaborador, respeitando um SLA financeiro de até 10 dias úteis após a aprovação do gestor no sistema.

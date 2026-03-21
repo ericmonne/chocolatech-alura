@@ -1,0 +1,41 @@
+﻿GUIA DE SEGURANÇA DE DADOS E GOVERNANÇA DE USO DE IA - CHOCOLATECH
+Versão 1.2 - Atualizada em Março de 2026
+1. OBJETIVO E ESCOPO
+A informação é o ativo mais valioso da ChocolaTech. Este guia estabelece as regras para a proteção de dados corporativos, privacidade de nossos clientes (em conformidade com a LGPD) e as diretrizes oficiais para o uso seguro de ferramentas de Inteligência Artificial Generativa no ambiente de trabalho.
+2. CLASSIFICAÇÃO DA INFORMAÇÃO
+Todos os dados manipulados pelos colaboradores da ChocolaTech devem ser classificados em um dos 4 (quatro) níveis abaixo. O nível dita como o dado pode ser armazenado, compartilhado e processado por IAs:
+   * Nível 1 (Público): Informações já divulgadas no site da empresa, materiais de marketing, comunicados de imprensa. Podem ser compartilhados livremente.
+   * Nível 2 (Interno): Políticas de RH, organogramas, comunicados internos gerais. O compartilhamento é restrito aos colaboradores da ChocolaTech.
+   * Nível 3 (Confidencial): Código-fonte de produtos, estratégias de negócios, relatórios financeiros não publicados, contratos com fornecedores. O vazamento causa dano à empresa.
+   * Nível 4 (Restrito / PII): Dados Pessoais Identificáveis (PII) de clientes ou colaboradores (CPF, RG, endereço, dados de saúde, salários, senhas, dados de cartão de crédito). É o nível mais crítico de segurança.
+   3. GOVERNANÇA E USO DE INTELIGÊNCIA ARTIFICIAL (IA)
+A ChocolaTech incentiva o uso de IA para ganho de produtividade, desde que feito de forma ética e segura.
+3.1. Ferramentas de IA Homologadas (Permitidas):
+Apenas as seguintes ferramentas passaram pela auditoria do nosso time de Segurança da Informação (InfoSec) e estão liberadas para uso com dados de Nível 1, 2 e 3:
+      * ChocoGPT: Nossa plataforma interna e segura de IA (acessível via https://www.google.com/search?q=ia.chocolatech.com.br). Os dados inseridos aqui não são usados para treinar modelos externos.
+      * Microsoft Copilot Corporativo: Liberado apenas para colaboradores com licença "Enterprise" associada ao seu e-mail corporativo.
+      * GitHub Copilot: Homologado exclusivamente para os times de Engenharia de Software.
+3.2. Ferramentas de IA Não-Homologadas (Proibidas para dados corporativos):
+É ESTEritamente PROIBIDO inserir qualquer dado de Nível 2, 3 ou 4 em versões públicas e gratuitas de IAs, tais como:
+      * ChatGPT (versão gratuita ou Plus pessoal).
+      * Google Gemini (versão gratuita pessoal).
+      * Claude (versão gratuita pessoal).
+      * Qualquer gerador de imagens ou áudio de domínio público.
+3.3. Regra de Ouro da IA (Proibição de Dados Restritos):
+Sob NENHUMA circunstância é permitido inserir dados de Nível 4 (Restrito/PII) em QUALQUER ferramenta de IA, seja ela homologada ou não. Se precisar analisar uma base de dados com IA, o colaborador DEVE anonimizar ou mascarar os dados pessoais (ex: trocar nomes reais por "Cliente A", mascarar CPFs) antes de realizar o prompt.
+3.4. Responsabilidade Humana (Human-in-the-Loop):
+As IAs podem sofrer alucinações (gerar informações falsas com tom de confiança). O colaborador é 100% responsável por qualquer conteúdo (texto, código, relatório) gerado por IA e utilizado em nome da ChocolaTech. Todo output de IA deve ser revisado e validado criticamente por um humano antes de ser enviado a clientes ou aplicado em produção.
+      4. PREVENÇÃO CONTRA VAZAMENTO DE DADOS (DLP)
+Para evitar o vazamento acidental ou intencional de informações, a ChocolaTech aplica as seguintes restrições técnicas em todas as máquinas corporativas:
+         * Dispositivos USB: O uso de pen drives e HDs externos é bloqueado por padrão em todos os notebooks. Solicitações de desbloqueio excepcional devem ser feitas ao suporte de TI, justificando a necessidade de negócio.
+         * Armazenamento em Nuvem: É proibido o uso de serviços de nuvem pessoais (Dropbox, Google Drive pessoal, OneDrive pessoal, iCloud) para armazenar arquivos da empresa. O único repositório em nuvem autorizado é o Google Drive Corporativo da ChocolaTech.
+         * Encaminhamento de E-mails: Regras de servidor bloqueiam o encaminhamento automático de e-mails da conta @https://www.google.com/search?q=chocolatech.com.br para contas de e-mail pessoais (ex: @gmail.com, @yahoo.com).
+         5. RESPOSTA A INCIDENTES DE SEGURANÇA
+Um incidente de segurança ocorre quando há suspeita ou confirmação de que dados Confidenciais ou Restritos foram expostos, perdidos, roubados ou acessados por pessoas não autorizadas (ex: enviar uma planilha de salários para o e-mail errado, ter o notebook furtado, clicar em um link de phishing).
+SLA de Reporte Obrigatório: O colaborador DEVE reportar o incidente imediatamente, com prazo MÁXIMO de 2 (duas) horas após a descoberta do fato, enviando um e-mail com a tag [URGENTE] para soc@https://www.google.com/search?q=chocolatech.com.br (Security Operations Center) ou acionando o ramal de emergência *911 no Teams/Slack.
+Tentar ocultar um incidente de segurança é considerado uma infração gravíssima e resulta em demissão sumária. A comunicação rápida ajuda a equipe técnica a conter o dano.
+            6. AUDITORIA E SANÇÕES DISCIPLINARES
+A equipe de InfoSec realiza auditorias contínuas de tráfego de rede e uso de aplicações. O descumprimento das normas deste guia sujeita o colaborador a medidas disciplinares, que incluem:
+            7. Advertência verbal e bloqueio temporário de acessos.
+            8. Advertência por escrito e notificação ao RH.
+            9. Demissão com ou sem justa causa, além da responsabilização civil e criminal em caso de vazamento intencional de dados protegidos pela LGPD.

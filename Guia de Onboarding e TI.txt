@@ -1,0 +1,43 @@
+﻿GUIA DE ONBOARDING E POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO (TI) - CHOCOLATECH
+Versão 4.0 - Atualizada em Fevereiro de 2026
+1. BEM-VINDO AO CHOCOTEAM!
+Este guia foi criado para garantir que seus primeiros dias na ChocolaTech sejam incríveis e sem barreiras tecnológicas. Aqui você encontrará o checklist obrigatório do seu onboarding, as regras de uso dos nossos sistemas e como acionar o suporte técnico quando as coisas não saírem como o planejado.
+2. A JORNADA DO ONBOARDING: SEUS PRIMEIROS 30 DIAS
+O processo de integração (Onboarding) é dividido em etapas com prazos rigorosos para garantir sua total adaptação e conformidade legal:
+   * Dia 1 (O Chegada): Você receberá seu equipamento físico e suas credenciais provisórias de acesso (e-mail e senha inicial). Sua única missão no Dia 1 é acessar o portal "ChocoWelcome", alterar sua senha e configurar a Autenticação de Dois Fatores (MFA).
+   * Até o Dia 5: Concluir os módulos em vídeo sobre a "História da ChocolaTech" e "Nossos Produtos" na plataforma ChocoLearn.
+   * Até o Dia 15: Conclusão OBRIGATÓRIA dos treinamentos de Compliance: "Código de Conduta", "Prevenção ao Assédio" e "Fundamentos de LGPD (Lei Geral de Proteção de Dados)". O não cumprimento deste prazo resultará no bloqueio temporário do seu acesso ao ERP e aos sistemas de clientes.
+   * Dia 30: Reunião de Check-in de 30 dias com seu gestor direto e o Business Partner (BP) do RH para avaliar sua adaptação.
+   3. EQUIPAMENTOS E HARDWARE (POLÍTICA DE DISTRIBUIÇÃO)
+A ChocolaTech fornece equipamentos de acordo com o perfil da sua vaga (cargo).
+      * Perfil Business (RH, Financeiro, Vendas, Marketing, Operações): Notebook Dell Latitude ou Lenovo ThinkPad (Processador Core i5, 16GB de RAM, 512GB SSD), 1 monitor externo de 24", kit teclado e mouse sem fio, e headset padrão.
+      * Perfil Tech (Desenvolvedores, Engenheiros de Dados, DevOps, Design UX/UI): Notebook Apple MacBook Pro M3 ou Dell XPS (32GB de RAM, 1TB SSD), 2 monitores externos de 27" (4K), kit teclado mecânico, mouse ergonômico e headset com cancelamento de ruído ativo.
+Extravio ou Roubo: Em caso de roubo do equipamento corporativo, o colaborador deve registrar um Boletim de Ocorrência (B.O.) na polícia em até 24 horas e enviar a cópia imediatamente para ti@chocolatech.com.br. A empresa cobrirá o custo integral do equipamento mediante a apresentação do B.O. Em caso de perda por negligência comprovada, o valor do equipamento poderá ser descontado na folha de pagamento em até 6 parcelas.
+      4. SOFTWARES CORPORATIVOS E ACESSOS
+A ChocolaTech utiliza o ecossistema Google Workspace (Gmail, Drive, Meet, Docs) para produtividade e o Slack para comunicação instantânea.
+         * E-mail Corporativo: O formato padrão é nome.sobrenome@chocolatech.com.br. O tamanho da caixa de entrada é de 50GB.
+         * Licenças Específicas: Softwares específicos (Adobe Creative Cloud, licenças do Figma, IntelliJ, licenças premium do GitHub) não são liberados por padrão. Devem ser solicitados via chamado no portal de TI, contendo a justificativa de negócio e a aprovação prévia do centro de custo pelo gestor da área.
+         * Redes Wi-Fi no Escritório:
+         * "ChocoSec": Rede exclusiva para equipamentos corporativos da empresa. A conexão é automática via certificado digital na máquina.
+         * "ChocoGuest": Rede destinada a visitantes e aos smartphones pessoais dos colaboradores. A senha é atualizada toda segunda-feira e fica disponível nos monitores da recepção.
+         5. SEGURANÇA DA INFORMAÇÃO E VPN
+         * Autenticação de Dois Fatores (MFA): É obrigatória em todos os sistemas da empresa. Utilizamos o aplicativo "Google Authenticator" instalado no celular do colaborador.
+         * Troca de Senha: As senhas devem conter no mínimo 12 caracteres (incluindo maiúsculas, minúsculas, números e caracteres especiais) e expiram a cada 90 dias. O sistema enviará alertas 15, 7 e 1 dia antes da expiração.
+         * Uso de VPN (Virtual Private Network): Para acessar o ERP corporativo (ChocoSystem), o servidor de arquivos (FileServer) ou bancos de dados internos a partir de redes externas (home office, cafés, aeroportos), é OBRIGATÓRIA a conexão prévia na VPN "ChocoTunnel" instalada no notebook.
+         6. ACIONANDO O SUPORTE DE TI (HELP DESK) E SLA
+Problemas de TI devem ser reportados EXCLUSIVAMENTE através do portal de chamados (https://www.google.com/search?q=suporte.chocolatech.com.br) ou pelo chatbot "@ChocoBot" no Slack.
+A equipe de TI não atende solicitações feitas via mensagens diretas (DM) ou e-mail pessoal, exceto em indisponibilidade total do sistema de chamados.
+Os chamados são classificados em 4 níveis de severidade, cada um com um Acordo de Nível de Serviço (SLA) para primeira resposta e resolução:
+            * Severidade 1 (Crítica - P1): Parada total que afeta uma área inteira, vazamento de dados ou sistema de faturamento fora do ar.
+            * Tempo de Resposta: 15 minutos.
+            * Tempo de Resolução Alvo: 2 horas.
+            * Severidade 2 (Alta - P2): Equipamento do colaborador quebrado impossibilitando o trabalho de forma total, ou bloqueio de conta de usuário sem motivo aparente.
+            * Tempo de Resposta: 1 hora.
+            * Tempo de Resolução Alvo: 4 horas úteis.
+            * Severidade 3 (Média - P3): Dúvidas sobre uso de softwares, lentidão em sistemas que não impedem o trabalho, solicitação de instalação de novos softwares pré-aprovados.
+            * Tempo de Resposta: 4 horas úteis.
+            * Tempo de Resolução Alvo: 24 horas úteis.
+            * Severidade 4 (Baixa - P4): Solicitação de troca de periféricos (mouse, teclado) por desgaste estético, dúvidas gerais de TI sem impacto na operação.
+            * Tempo de Resposta: 24 horas úteis.
+            * Tempo de Resolução Alvo: Até 5 dias úteis.
+Para reposição de hardware quebrado em regime de Home Office, a TI envia um equipamento substituto via transportadora expressa com SLA de entrega de D+1 (dia seguinte) para capitais e D+3 para o interior. O equipamento avariado deve ser devolvido na mesma caixa.
