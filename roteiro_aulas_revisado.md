@@ -32,6 +32,9 @@ Criar duas esteiras essenciais: uma para ler o PDF (Carga) e outra para responde
 ### Fluxo 1: Carga de Dados (Load Data Flow)
 Resumo: Puxa o arquivo TXT/PDF do GitHub, "fatia" em pedaços e salva na memória do Agente.
 
+<img width="1093" height="479" alt="image" src="https://github.com/user-attachments/assets/fab4ad27-54b3-401e-8bd1-382f7dcdd604" />
+
+
 **Passo a Passo dos Nós: (resumo)**
 1. **Manual Trigger:** Inicia o processo manualmente.
 2. **HTTP Request:** Puxa o manual da empresa.
@@ -104,6 +107,10 @@ Para rodar esse Fluxo de Carga:
 
 ### Fluxo 2: Conversa Base Inicial (Retriever Flow)
 Resumo: Janela de chat nativo do n8n que responde com base no que salvamos no passo de carga.
+
+
+<img width="834" height="610" alt="image" src="https://github.com/user-attachments/assets/f8f599a2-c217-43da-ae18-253718743ec2" />
+
 
 **Passo a Passo dos Nós: (resumo)**
 *(Atenção: Este fluxo pressupõe que você já rodou o **Fluxo 1 (Carga)** pelo menos uma vez para que o texto das políticas já esteja salvo na memória vetorial sob a chave `vector_store_key`).*
@@ -190,6 +197,9 @@ Resumo: Janela de chat nativo do n8n que responde com base no que salvamos no pa
 ---
 
 ## AULA 02 — Memória Corporativa (Banco de Dados MySQL)
+
+<img width="1049" height="628" alt="image" src="https://github.com/user-attachments/assets/930dc76b-a760-41e5-84eb-dd85e85425a8" />
+
 ```sql
 CREATE TABLE funcionarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -350,6 +360,9 @@ No nó MySQL, o alerta vermelho *"No parameters are set up to be filled by AI"* 
 ---
 
 ## AULA 03 — Produto Real (Telegram e Guardrails)
+
+<img width="1385" height="757" alt="image" src="https://github.com/user-attachments/assets/e5958031-1646-477b-aa02-cdb714147ba3" />
+
 
 ### 📌 Objetivo
 1. Transformar o projeto em um app real no celular.
