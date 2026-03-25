@@ -208,32 +208,30 @@ Errores e Inconsistencias Encontrados
 
 \<img width="1049" height="628" alt="image" src="https://github.com/user-attachments/assets/930dc76b-a760-41e5-84eb-dd85e85425a8" /\>
 
-CREATE TABLE funcionarios (  
-    id INT AUTO\_INCREMENT PRIMARY KEY,  
-    nome VARCHAR(100) NOT NULL,  
+CREATE TABLE empleados (  
+    id INT AUTO_INCREMENT PRIMARY KEY,  
+    nombre VARCHAR(100) NOT NULL,  
     email VARCHAR(150) NOT NULL UNIQUE,  
     departamento VARCHAR(100) NOT NULL,  
-    cargo VARCHAR(100) NOT NULL,  
-    data\_admissao DATE NOT NULL,  
-    saldo\_ferias INT NOT NULL DEFAULT 0,  
-    banco\_horas DECIMAL(5,1) NOT NULL DEFAULT 0,  
-    regime VARCHAR(20) NOT NULL DEFAULT 'hibrido'  
+    puesto VARCHAR(100) NOT NULL,  
+    fecha_ingreso DATE NOT NULL,  
+    saldo_vacaciones INT NOT NULL DEFAULT 0,  
+    banco_horas DECIMAL(5,1) NOT NULL DEFAULT 0,  
+    modalidad VARCHAR(20) NOT NULL DEFAULT 'hibrido'  
 );
 
-\-- Inserción de datos básicos para pruebas en clase
-
-INSERT INTO funcionarios (nome, email, departamento, cargo, data\_admissao, saldo\_ferias, banco\_horas, regime) VALUES  
-('João Silva', 'joao.silva@empresa.com', 'Engenharia', 'Engenheiro de Software', '2022-03-10', 20, 0.0, 'hibrido'),  
-('Maria Souza', 'maria.souza@empresa.com', 'Recursos Humanos', 'Analista de RH', '2021-05-15', 5, 12.5, 'hibrido'),  
-('Carlos Oliveira', 'carlos.oliveira@empresa.com', 'Financeiro', 'Analista Financeiro', '2023-01-20', 0, 0.0, 'presencial'),  
-('Ana Lima', 'ana.lima@empresa.com', 'Marketing', 'Especialista em Marketing', '2020-11-05', 15, \-4.0, 'remoto'),  
-('Pedro Santos', 'pedro.santos@empresa.com', 'Vendas', 'Executivo de Vendas', '2022-08-01', 10, 8.0, 'hibrido'),  
-('Fernanda Costa', 'fernanda.costa@empresa.com', 'Operações', 'Gerente de Operações', '2019-02-12', 30, 0.0, 'presencial'),  
-('Rafael Mendes', 'rafael.mendes@empresa.com', 'TI', 'Analista de Suporte', '2023-06-10', 0, 15.5, 'hibrido'),  
-('Juliana Rocha', 'juliana.rocha@empresa.com', 'Engenharia', 'Desenvolvedora Front-end', '2021-09-25', 12, 0.0, 'remoto'),  
-('Bruno Alves', 'bruno.alves@empresa.com', 'Design', 'Designer UX/UI', '2022-04-18', 8, 3.5, 'hibrido'),  
-('Camila Ferreira', 'camila.ferreira@empresa.com', 'Atendimento', 'Analista de Atendimento', '2024-01-05', 0, 0.0, 'hibrido'),  
-('Eric Monné', 'eric.monne@chocolatech.com', 'Produto', 'Instrutor de Cursos', '2024-01-15', 25, 8.0, 'hibrido');
+INSERT INTO empleados (nombre, email, departamento, puesto, fecha_ingreso, saldo_vacaciones, banco_horas, modalidad) VALUES  
+('Juan Silva', 'juan.silva@empresa.com', 'Ingeniería', 'Ingeniero de Software', '2022-03-10', 20, 0.0, 'hibrido'),  
+('María Souza', 'maria.souza@empresa.com', 'Recursos Humanos', 'Analista de RR. HH.', '2021-05-15', 5, 12.5, 'hibrido'),  
+('Carlos Oliveira', 'carlos.oliveira@empresa.com', 'Finanzas', 'Analista Financiero', '2023-01-20', 0, 0.0, 'presencial'),  
+('Ana Lima', 'ana.lima@empresa.com', 'Marketing', 'Especialista en Marketing', '2020-11-05', 15, -4.0, 'remoto'),  
+('Pedro Santos', 'pedro.santos@empresa.com', 'Ventas', 'Ejecutivo de Ventas', '2022-08-01', 10, 8.0, 'hibrido'),  
+('Fernanda Costa', 'fernanda.costa@empresa.com', 'Operaciones', 'Gerente de Operaciones', '2019-02-12', 30, 0.0, 'presencial'),  
+('Rafael Mendes', 'rafael.mendes@empresa.com', 'TI', 'Analista de Soporte', '2023-06-10', 0, 15.5, 'hibrido'),  
+('Juliana Rocha', 'juliana.rocha@empresa.com', 'Ingeniería', 'Desarrolladora Front-end', '2021-09-25', 12, 0.0, 'remoto'),  
+('Bruno Alves', 'bruno.alves@empresa.com', 'Diseño', 'Diseñador UX/UI', '2022-04-18', 8, 3.5, 'hibrido'),  
+('Camila Ferreira', 'camila.ferreira@empresa.com', 'Atención al Cliente', 'Analista de Atención al Cliente', '2024-01-05', 0, 0.0, 'hibrido'),  
+('Eric Monné', 'eric.monne@chocolatech.com', 'Producto', 'Instructor de Cursos', '2024-01-15', 25, 8.0, 'hibrido');
 
 ### **📌 Objetivo**
 
