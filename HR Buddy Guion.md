@@ -207,7 +207,7 @@ Errores e Inconsistencias Encontrados
 ## **CLASE 02 — Memoria Corporativa (Base de Datos MySQL)**
 
 \<img width="1049" height="628" alt="image" src="https://github.com/user-attachments/assets/930dc76b-a760-41e5-84eb-dd85e85425a8" /\>
-
+```sql
 CREATE TABLE empleados (  
     id INT AUTO_INCREMENT PRIMARY KEY,  
     nombre VARCHAR(100) NOT NULL,  
@@ -232,7 +232,7 @@ INSERT INTO empleados (nombre, email, departamento, puesto, fecha_ingreso, saldo
 ('Bruno Alves', 'bruno.alves@empresa.com', 'Diseño', 'Diseñador UX/UI', '2022-04-18', 8, 3.5, 'hibrido'),  
 ('Camila Ferreira', 'camila.ferreira@empresa.com', 'Atención al Cliente', 'Analista de Atención al Cliente', '2024-01-05', 0, 0.0, 'hibrido'),  
 ('Eric Monné', 'eric.monne@chocolatech.com', 'Producto', 'Instructor de Cursos', '2024-01-15', 25, 8.0, 'hibrido');
-
+```
 ### **📌 Objetivo**
 
 Dar identificación al empleado. El robot buscará en la base de datos MySQL (Railway) los datos de quien está conversando.
