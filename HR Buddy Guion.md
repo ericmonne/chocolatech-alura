@@ -32,7 +32,7 @@ Crear dos flujos (pipelines) esenciales: uno para leer el PDF (Carga) y otro par
 
 Resumen: Extrae el archivo TXT/PDF de GitHub, lo "rebana" en pedazos y lo guarda en la memoria del Agente.
 
-\<img width="1093" height="479" alt="image" src="https://github.com/user-attachments/assets/fab4ad27-54b3-401e-8bd1-382f7dcdd604" /\>
+<img width="1093" height="479" alt="image" src="https://github.com/user-attachments/assets/fab4ad27-54b3-401e-8bd1-382f7dcdd604" />
 
 **Paso a Paso de los Nodos: (resumen)**
 
@@ -119,7 +119,7 @@ Para ejecutar este Flujo de Carga:
 
 Resumen: Ventana de chat nativa de n8n que responde en base a lo que guardamos en el paso de carga.
 
-\<img width="834" height="610" alt="image" src="https://github.com/user-attachments/assets/f8f599a2-c217-43da-ae18-253718743ec2" /\>
+<img width="834" height="610" alt="image" src="https://github.com/user-attachments/assets/f8f599a2-c217-43da-ae18-253718743ec2" />
 
 **Paso a Paso de los Nodos: (resumen)**
 
@@ -206,7 +206,8 @@ Errores e Inconsistencias Encontrados
 
 ## **CLASE 02 — Memoria Corporativa (Base de Datos MySQL)**
 
-\<img width="1049" height="628" alt="image" src="https://github.com/user-attachments/assets/930dc76b-a760-41e5-84eb-dd85e85425a8" /\>
+<img width="1049" height="628" alt="image" src="https://github.com/user-attachments/assets/930dc76b-a760-41e5-84eb-dd85e85425a8" />
+
 ```sql
 CREATE TABLE empleados (  
     id INT AUTO_INCREMENT PRIMARY KEY,  
@@ -222,15 +223,15 @@ CREATE TABLE empleados (
 
 INSERT INTO empleados (nombre, email, departamento, puesto, fecha_ingreso, saldo_vacaciones, banco_horas, modalidad) VALUES  
 ('Juan Silva', 'juan.silva@empresa.com', 'Ingeniería', 'Ingeniero de Software', '2022-03-10', 20, 0.0, 'hibrido'),  
-('María Souza', 'maria.souza@empresa.com', 'Recursos Humanos', 'Analista de RR. HH.', '2021-05-15', 5, 12.5, 'hibrido'),  
-('Carlos Oliveira', 'carlos.oliveira@empresa.com', 'Finanzas', 'Analista Financiero', '2023-01-20', 0, 0.0, 'presencial'),  
+('María Gonzalez', 'maria.gonzalez@empresa.com', 'Recursos Humanos', 'Analista de RR. HH.', '2021-05-15', 5, 12.5, 'hibrido'),  
+('Carlos Olivera', 'carlos.olivera@empresa.com', 'Finanzas', 'Analista Financiero', '2023-01-20', 0, 0.0, 'presencial'),  
 ('Ana Lima', 'ana.lima@empresa.com', 'Marketing', 'Especialista en Marketing', '2020-11-05', 15, -4.0, 'remoto'),  
 ('Pedro Santos', 'pedro.santos@empresa.com', 'Ventas', 'Ejecutivo de Ventas', '2022-08-01', 10, 8.0, 'hibrido'),  
 ('Fernanda Costa', 'fernanda.costa@empresa.com', 'Operaciones', 'Gerente de Operaciones', '2019-02-12', 30, 0.0, 'presencial'),  
-('Rafael Mendes', 'rafael.mendes@empresa.com', 'TI', 'Analista de Soporte', '2023-06-10', 0, 15.5, 'hibrido'),  
-('Juliana Rocha', 'juliana.rocha@empresa.com', 'Ingeniería', 'Desarrolladora Front-end', '2021-09-25', 12, 0.0, 'remoto'),  
-('Bruno Alves', 'bruno.alves@empresa.com', 'Diseño', 'Diseñador UX/UI', '2022-04-18', 8, 3.5, 'hibrido'),  
-('Camila Ferreira', 'camila.ferreira@empresa.com', 'Atención al Cliente', 'Analista de Atención al Cliente', '2024-01-05', 0, 0.0, 'hibrido'),  
+('Rafael Mendez', 'rafael.mendez@empresa.com', 'TI', 'Analista de Soporte', '2023-06-10', 0, 15.5, 'hibrido'),  
+('Juliana García', 'juliana.garcía@empresa.com', 'Ingeniería', 'Desarrolladora Front-end', '2021-09-25', 12, 0.0, 'remoto'),  
+('Bruno Alvarez', 'bruno.alvarez@empresa.com', 'Diseño', 'Diseñador UX/UI', '2022-04-18', 8, 3.5, 'hibrido'),  
+('Camila Herrera', 'camila.herrera@empresa.com', 'Atención al Cliente', 'Analista de Atención al Cliente', '2024-01-05', 0, 0.0, 'hibrido'),  
 ('Eric Monné', 'eric.monne@chocolatech.com', 'Producto', 'Instructor de Cursos', '2024-01-15', 25, 8.0, 'hibrido');
 ```
 ### **📌 Objetivo**
@@ -366,7 +367,7 @@ En el nodo MySQL, la alerta roja *"No parameters are set up to be filled by AI"*
 
 ## **CLASE 03 — Producto Real (Telegram y Guardrails)**
 
-\<img width="1385" height="757" alt="image" src="https://github.com/user-attachments/assets/e5958031-1646-477b-aa02-cdb714147ba3" /\>
+<img width="1385" height="757" alt="image" src="https://github.com/user-attachments/assets/e5958031-1646-477b-aa02-cdb714147ba3" />
 
 ### **📌 Objetivo**
 
@@ -530,10 +531,10 @@ El *Código generado es algo súper corto:* {{ $json.output }}.
 Para agregar un empleado manualmente (ej.: para demostración en clase), ejecuta en MySQL Workbench:
 
 USE hr\_buddy;
-
-INSERT INTO funcionarios (nome, email, departamento, cargo, data\_admissao, saldo\_ferias, banco\_horas, regime) VALUES  
-('Christian Velasco', 'christian.velasco@techsolutions.com.br', 'Produto', 'Instrutor de Cursos', '2024-01-15', 25, 8.0, 'hibrido');
-
+```sql
+INSERT INTO empleados (nombre, email, departamento, puesto, fecha_ingreso, saldo_vacaciones, banco_horas, modalidad) VALUES  
+('Christian Velasco', 'christian.velasco@chocolatech.com.br', 'Producto', 'Instructor de Cursos', '2024-01-15', 25, 8.0, 'hibrido');
+```
 ### **💡 Consejo de Oro Didáctico (La Técnica de la "Cinta Transportadora")**
 
 Cuando enseñes a los alumnos cómo rescatar el Chat ID y el mensaje original usando expresiones llenas de puntuación ($().item.json...), evita enfocarte en el código y muestra el **n8n visual**:
