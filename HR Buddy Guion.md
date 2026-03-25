@@ -563,4 +563,4 @@ Cuando enseñes a los alumnos cómo rescatar el Chat ID y el mensaje original us
 ### **Repositorio del Manual de RR. HH.**
 
 * Repositorio: https://github.com/ericmonne/chocolatech-alura  
-* URL raw del archivo: https://raw.githubusercontent.com/ericmonne/chocolatech-alura/main/Manual%20de%20RH%20ChocolaTech.txt
+* URL raw del archivo: https://raw.githubusercontent.com/ericmonne/chocolatech-alura/refs/heads/main/Manual%20de%20RH%20ChocolaTech%20LAD.txt 
