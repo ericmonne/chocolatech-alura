@@ -39,7 +39,7 @@ Resumen: Extrae el archivo TXT/PDF de GitHub, lo "rebana" en pedazos y lo guarda
 1. **Manual Trigger:** Inicia el proceso manualmente.  
 2. **HTTP Request:** Extrae el manual de la empresa.  
    * *Method:* GET  
-   * *URL:* https://raw.githubusercontent.com/ericmonne/chocolatech-alura/main/Manual%20de%20RH%20ChocolaTech.txt  
+   * *URL:* https://raw.githubusercontent.com/ericmonne/chocolatech-alura/refs/heads/main/Manual%20de%20RH%20ChocolaTech%20LAD.txt 
    * *Response Format:* Text (en Options → Response. Por defecto n8n intenta leer JSON y falla).  
 3. **Simple Vector Store (Insert):** Guarda los vectores en la memoria.  
    * Conecta al conector "Document": **Default Data Loader** (para fraccionar el texto automáticamente).  
@@ -70,7 +70,7 @@ Resumen: Extrae el archivo TXT/PDF de GitHub, lo "rebana" en pedazos y lo guarda
 3. **Configuración Crucial del nodo HTTP Request:**  
    * **Method:** GET  
    * **URL:** Pega exactamente la ruta de GitHub enseñada en el curso:  
-     https://raw.githubusercontent.com/ericmonne/chocolatech-alura/main/Manual%20de%20RH%20ChocolaTech.txt  
+     https://raw.githubusercontent.com/ericmonne/chocolatech-alura/refs/heads/main/Manual%20de%20RH%20ChocolaTech%20LAD.txt
    * ⚠️ **ATENCIÓN:** Justo abajo, necesitas ir a la sección **Options**, hacer clic en **Add Option**, seleccionar **Response** y luego **Response Format**. Cambia la casilla format de *JSON* (por defecto) a **Text**. Sin esto, el nodo fallará diciendo que no pudo interpretar el documento.
 
 ### **Paso 3: Creando la Memoria Vectorial (La Inserción)**
