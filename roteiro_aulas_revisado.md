@@ -75,7 +75,6 @@ Resumo: Puxa o arquivo TXT/PDF do GitHub, "fatia" em pedaços e salva na memóri
 1. Puxe a linha de saída principal do `HTTP Request`.
 2. Adicione um nó chamado **`Simple Vector Store`**.
 3. **Configuração do Vector Store:**
-   - Note que ele é exatamente igual ao da aula anterior, mas com papel diferente.
    - **Operation:** Deixe como **`Insert Documents`** (inserir / salvar dados).
    - **Memory Key:** Escreva exatamente **`vector_store_key`**. É através dessa chave que o Agente do fluxo 2 saberá onde as políticas foram escondidas.
 
