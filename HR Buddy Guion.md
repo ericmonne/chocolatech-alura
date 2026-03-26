@@ -367,7 +367,8 @@ En el nodo MySQL, la alerta roja *"No parameters are set up to be filled by AI"*
 
 ## **CLASE 03 — Producto Real (Telegram y Guardrails)**
 
-<img width="1385" height="757" alt="image" src="https://github.com/user-attachments/assets/e5958031-1646-477b-aa02-cdb714147ba3" />
+<img width="1315" height="622" alt="image" src="https://github.com/user-attachments/assets/a4caa588-306a-4a2f-8ec6-fca93b495151" />
+
 
 ### **📌 Objetivo**
 
@@ -401,7 +402,7 @@ En el nodo MySQL, la alerta roja *"No parameters are set up to be filled by AI"*
 
 ### **Paso a Paso de los Nodos (resumen)**
 
-*Consejo para la Clase: Abandona el antiguo flujo de la Clase 02 y crea un **Workflow Nuevo** "HR Buddy \- Telegram" para no ensuciar la didáctica.*
+*Consejo para la Clase: duplicar el antiguo flujo de la Clase 02 y crea un **Workflow Nuevo** "HR Buddy \- Telegram" para no ensuciar la didáctica.*
 
 1. **Telegram Trigger (La Puerta de Entrada):**  
    * Agrega y crea las credenciales (Token rescatado con @BotFather). *Updates:* message.  
