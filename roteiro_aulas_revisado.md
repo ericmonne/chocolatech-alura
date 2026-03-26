@@ -363,6 +363,9 @@ No nó MySQL, o alerta vermelho *"No parameters are set up to be filled by AI"* 
 <img width="1385" height="757" alt="image" src="https://github.com/user-attachments/assets/e5958031-1646-477b-aa02-cdb714147ba3" />
 
 
+Classifique a mensagem abaixo em uma das três categorias: SAUDACAO / RH / OUTRO. Mensagem: {{ $json.message.text }} Responda APENAS com uma palavra única.
+
+
 ### 📌 Objetivo
 1. Transformar o projeto em um app real no celular.
 2. Criar uma "Catraca" (Guardrails) bloqueando perguntas de curiosos (como receitas de bolo) ANTES delas ativarem o Agente de IA, economizando dinheiro.
