@@ -78,7 +78,6 @@ Resumen: Extrae el archivo TXT/PDF de GitHub, lo "rebana" en pedazos y lo guarda
 1. Tira de la línea de salida principal del HTTP Request.  
 2. Agrega un nodo llamado **Simple Vector Store**.  
 3. **Configuración del Vector Store:**  
-   * Nota que es exactamente igual al de la clase anterior, pero con un rol diferente.  
    * **Operation:** Déjalo como **Insert Documents** (insertar / guardar datos).  
    * **Memory Key:** Escribe exactamente **vector\_store\_key**. Es a través de esta clave que el Agente del flujo 2 sabrá dónde se escondieron las políticas.
 
