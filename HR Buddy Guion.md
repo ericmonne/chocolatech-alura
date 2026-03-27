@@ -105,14 +105,11 @@ Aquí vamos a transformar el texto fraccionado en coordenadas que los robots ent
 
 ### **Cómo Ejecutar**
 
-Tu lienzo (canvas) ahora tiene dos "dibujos" aislados.
-
 Para ejecutar este Flujo de Carga:
 
 1. Posiciona el mouse encima del Manual Trigger recién creado.  
 2. Aparecerá el clásico ícono de "Play" (Test step). Presiónalo.  
 3. Si todo se pone verde (Success), eso significa que el documento bajó de GitHub, fue leído, fraccionado y guardado en el "Cerebro" de tu n8n.  
-4. ¡Ahora puedes ir a la Ventana de Chat y decir un "Hola" al Agente para probar la información\!
 
 ### **Flujo 2: Conversación Base Inicial (Retriever Flow)**
 
