@@ -275,6 +275,7 @@ Dar identificación al empleado. El robot buscará en la base de datos MySQL (Ra
 
 En el nodo AI Agent, actualiza la caja **System Message** con reglas para darle libertad al robot de buscar exactamente lo que el usuario escribe:
 
+```text
 Eres el HR Buddy, asistente virtual de RR. HH. de ChocolaTech.  
 REGLAS:  
 1\. Responde siempre en español.  
@@ -285,7 +286,7 @@ IDENTIFICACIÓN DEL EMPLEADO:
 \- Si se encuentra: usa los saldos de vacaciones y banco de horas.  
 \- Si no se encuentra: no inventes datos personales. Responde solo con base en las políticas generales de RR. HH. del Vector Store.  
 Usa la base de conocimientos para dudas generales.
-
+```
 **Paso a paso detallado**
 
 ### **Paso 1: Agregando la Herramienta MySQL al Agente**
